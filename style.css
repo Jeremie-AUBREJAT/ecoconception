@@ -6,6 +6,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.keyword{font-size: 15px;
+}
+
+.keywords{font-size: 15px;
+}
+li{padding: 1rem;}
 
 a,
 button {
@@ -91,7 +97,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -100,7 +106,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgb(30, 30, 30);
+    color: rgb(30, 30, 30) !important;
 }
 
 .d-bloc button:hover {
@@ -650,7 +656,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 800;
+    font-size: 20px;
     color: #000000!important;
 }
 
@@ -677,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -742,6 +748,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    max-width: 100% !important;
 }
 
 .portfolio-row {
@@ -776,12 +783,13 @@ h4 {
 }
 
 .tc-white {
-    color: #d76530!important;
+    color: #000000!important;
+    font-size: large;
 }
 
 .btn-atomic-tangerine {
     background: #D76530;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -823,7 +831,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1041,3 +1049,12 @@ h4 {
         text-align: center;
     }
 }
+@font-face {
+    font-family: 'Pacifico' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'),
+      url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
+        format('woff2') !important;
+    font-display: swap !important;
+  }
